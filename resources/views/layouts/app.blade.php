@@ -10,20 +10,9 @@
     {{--    <link rel="script" href="{{ mix('css/app.css') }}"/>--}}
 </head>
 <body>
-
-<script>
-    const source = new EventSource("/receive-data");
-    source.addEventListener("update", function (event) {
-        const data = JSON.parse(event.data);
-        console.log(data.message);
-        // Load the new view here
-        <html lang="de">
-            <div class="container my-4" id="content">
-                @yield('content')
-            </div>
-        </html>
-    }, false);
-</script>
+<div id="content">
+    @yield('content')
+</div>
 
 
 <!-- footer -->
