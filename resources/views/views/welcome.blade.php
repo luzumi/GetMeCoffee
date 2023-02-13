@@ -3,10 +3,10 @@
     <div id="content" class="text-center">
         {{$viewData??'RFID-Card auflegen'}}
     </div>
-    {{--        <video id="myVideo" loop autoplay width="100%" height="auto" class="block" >--}}
-    {{--            <source src="/storage/media/juicy%20vapor,%20in%20the%20style%20of%203D%20Rendering(1).mp4" type="video/mp4">--}}
-    {{--            Your browser does not support the video tag.--}}
-    {{--        </video>--}}
+{{--        <video id="myVideo" loop autoplay width="100%" height="auto" class="block" >--}}
+{{--            <source src="/storage/media/juicy%20vapor,%20in%20the%20style%20of%203D%20Rendering(1).mp4" type="video/mp4">--}}
+{{--            Your browser does not support the video tag.--}}
+{{--        </video>--}}
 
 
     <script>
